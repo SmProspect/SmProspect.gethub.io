@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    margin: 30px auto;
+    height: 42px;
+    line-height: 42px;
+}
+
+.logo {
+    float: left;
+
+}
+
+.header_nav {
+    float: left;
+    margin: 0 30px;
+}
+
+.header_nav ul li {
+    height: 40px;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.header_nav ul li a {
+    text-decoration: none;
+    font:  18px '微软雅黑';
+    color: black;
+}
+
+.header_nav ul li:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+.search {
+    float: left;
+    margin-left: 70px;
+    width: 410px;
+}
+
+.search input {
+    float: left;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #c7c7c8;
+    width: 340px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+}
+
+button {
+    float: left;
+    height: 42px;
+    width: 46px;
+    border: 0;
+    background-color: #00a4ff;
+}
+
+.reg {
+    float: right;
+    margin-right: 40px;
+    padding: 6px 0;
+    height: 30px;
+}
+.reg img {
+    border-radius: 50%;
+}
+
+.menu {
+    background-image: url("../images/矩形54拷贝.png");
+    border-top: 1px solid transparent;
+}
+.nav_box {
+    background-image: url("../images/课程明细背景.png")
+}
+.nav_tech {
+    display: inline-block;
+    width: 190px;
+    height: 420px;
+    border-top: 1px solid transparent;
+    background-color: #14024c;
+}
+
+.nav_tech ul li a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: white;
+}
+.nav_tech ul li {
+    font: 14px '微软雅黑';
+    padding: 13px 0;
+    /*padding-left: 5px;*/
+    list-style: none;
+}
+
+.course {
+    float: right;
+    background-color: #ffffff;
+    height: 300px;
+    width: 230px;
+    text-align: center;
+    margin-top: 50px;
+    border-left: 1px solid transparent;
+}
+
+.course h4 {
+    height: 50px;
+    line-height: 50px;
+    background-color: #9bceea;
+}
+
+.course ul li {
+    list-style: none;
+    height: 65px;
+}
+
+#but {
+    height: 38px;
+    width: 198px;
+    margin-left:15px;
+    border: 2px solid #80d2ff;
+    background-color: #ffffff;
+}
+
+.course ul li a {
+    text-decoration: none;
+    color: black;
+}
+.course ul li a span {
+    font-size: 14px;
+    color: #bfb9b7;
+}
